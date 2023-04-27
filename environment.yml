@@ -1,0 +1,10 @@
+name: bioimg-compression-demo
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - tiledb-py
+  - openslide-python
+  - pip
+  - pip:
+    - tiledb-bioimg
