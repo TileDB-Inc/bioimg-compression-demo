@@ -7,7 +7,7 @@ import urllib, urllib.request
 #%%
 if not os.path.isfile("JP2K-33003-2.svs"):
   print("Downloading sample image...")
-  urllib.request.urlretrieve("https://openslide.cs.cmu.edu/download/openslide-testdata/Aperio/JP2K-33003-2.svs")
+  urllib.request.urlretrieve("https://openslide.cs.cmu.edu/download/openslide-testdata/Aperio/JP2K-33003-2.svs", "JP2K-33003-2.svs")
 
 #%%
 if not os.path.isfile("JP2K-33003-2.tiledb"):
